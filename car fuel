@@ -1,0 +1,22 @@
+//https://www.codechef.com/submit/CARRANGE
+
+//C++
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--){
+        int p,m,v;
+        cin>>p>>m>>v;
+        cout<<(v*(m-(p-1)))<<endl;
+    }
+	return 0;
+}
+
+//PYTHON
+for _ in range(int(input())):
+    p,m,v=map(int,input().split())
+    print(v*(m-(p-1)))
+ 
